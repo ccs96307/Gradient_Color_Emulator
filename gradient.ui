@@ -570,7 +570,11 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgba(80,80,80, 0.9)</string>
+     <string notr="true">background-color: 
+qlineargradient(
+spread: pad, x1:0.5, y1:0, x2:0.5, y2:1,
+stop:0 rgb(150, 150, 150),
+stop:1 rgb(65, 65, 65))</string>
     </property>
     <property name="text">
      <string>Gradient Color Emulator</string>
